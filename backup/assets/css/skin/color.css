@@ -186,8 +186,12 @@ div.price2,
 .piko-layout-header .piko-navbar .piko-mega-menu.piko-mega-menu-light-mobile > .nav.navbar-nav > li .dropdown-menu > li:hover > a{color:#58bcef;background-color:transparent;}
 }
 
+.fixed-mobile-btn{
+	display: none;
+}
 @media only screen and (max-width: 500px) and (min-width: 300px){
 	.fixed-mobile-btn{
+		display: block;
 		width: 100%;
 		padding: 8px 0;
 		color: #fff;
