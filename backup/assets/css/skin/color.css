@@ -187,8 +187,7 @@ div.price2,
 }
 
 @media only screen and (max-width: 500px) and (min-width: 300px){
-	body:before{
-		content: "Call Us";
+	.fixed-mobile-btn{
 		width: 100%;
 		padding: 8px 0;
 		color: #fff;
@@ -198,6 +197,10 @@ div.price2,
 		font-size: 16px;
 		text-align :center;
 		background: #58bcef;
-
+	}
+	.fixed-mobile-btn:active,
+	.fixed-mobile-btn:focus,
+	.fixed-mobile-btn:visited{
+		color: #fff;
 	}
 }
