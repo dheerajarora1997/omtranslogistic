@@ -1,5 +1,5 @@
 @import url(../../plugin/plugin-css/plugin.min.css);@import url(../../plugin/font-awesome/css/font-awesome.min.css);@import url(../style.min.css);a{color:#141414;}
-a:hover, a:focus{color:#45bf55;}
+a:hover, a:focus{color:#58bcef;}
 a:hover{text-decoration:none;}
 a:active{color:#666;text-decoration:none;}
 mark{color:#fff;font-weight:600;}
@@ -78,7 +78,7 @@ li.event:nth-child(even)::before,
 .pricing-box3 h4,
 .f-line, .f-line2,
 .recent-project .title hr,
-.recent-project figure .project-link{background-color:#45bf55;}
+.recent-project figure .project-link{background-color:#58bcef;}
 .testimonial-01 .quote,
 .piko-hr-title,
 .piko-title9 h3 mark,
@@ -119,7 +119,7 @@ footer .link.white a:hover,
 .shop-page a:hover i,
 .blog-comment .media .media-body h4 a:hover,
 .page-banner .breadcrumb a:hover,
-.counter3 .one.two i, .counter3 .one.three i, .counter3 .one.two, .counter3 .one.four i, .counter3 .one.four, .counter3 .one{color:#45bf55;}
+.counter3 .one.two i, .counter3 .one.three i, .counter3 .one.two, .counter3 .one.four i, .counter3 .one.four, .counter3 .one{color:#58bcef;}
 .box-c > .icon-box > .info:hover,
 .box > .icon-box > .info:hover,
 .signle-box > .icon-box > .image,
@@ -147,14 +147,14 @@ footer .link.white a:hover,
 #filter>li.selected:before,
 .tp-bullets.preview4 .bullet,
 .tp-bullets.simplebullets .bullet:hover, .tp-bullets.simplebullets .bullet.selected,
-.btn-s5.orange{border-color:#45bf55;}
-.testimonials-03 p:after{border-bottom-color:#45bf55;}
+.btn-s5.orange{border-color:#58bcef;}
+.testimonials-03 p:after{border-bottom-color:#58bcef;}
 .get-quote-bg,
 .social-effect-1a .social-icon:after,
 .btn-warning:hover,
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover,
 .btn-xs3 span,
-.btn-s3 span{background-color:#45bf55;}
+.btn-s3 span{background-color:#58bcef;}
 .partner,
 .signle-box > .icon-box > .info,
 .box > .icon-box > .info ,
@@ -181,7 +181,23 @@ div.price2,
 .image-round2 .thumbnail .caption,
 .piko-thub{background-color:#fff}
 .box > .icon-box > .image:after{background-color:#fcfcfc;}
-.box > .icon-box > .image{box-shadow:0 0 0 3px #45bf55;}
+.box > .icon-box > .image{box-shadow:0 0 0 3px #58bcef;}
 @media (max-width:991px){.piko-layout-header .piko-navbar .piko-mega-menu.piko-mega-menu-light-mobile > .nav.navbar-nav > li .dropdown-menu > li.piko-active > a,
-.piko-layout-header .piko-navbar .piko-mega-menu.piko-mega-menu-light-mobile > .nav.navbar-nav > li .dropdown-menu > li:hover > a{color:#45bf55;background-color:transparent;}
+.piko-layout-header .piko-navbar .piko-mega-menu.piko-mega-menu-light-mobile > .nav.navbar-nav > li .dropdown-menu > li:hover > a{color:#58bcef;background-color:transparent;}
+}
+
+@media only screen and (max-width: 500px) and (min-width: 300px){
+	body:before{
+		content: "Call Us";
+		width: 100%;
+		padding: 8px 0;
+		color: #fff;
+		position:fixed;
+		bottom: 0;
+		z-index: 5;
+		font-size: 16px;
+		text-align :center;
+		background: #58bcef;
+
+	}
 }

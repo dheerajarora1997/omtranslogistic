@@ -1,4 +1,4 @@
-.floating-form select{border:1px solid rgba(0, 0, 0, 0.1);background-color:rgba(0, 0, 0, 0.02);height:45px;padding:10px;line-height:100%;outline:0;width:100%;max-width:100%;background-image:url(../images/icon/caret.png);background-position:95% center;background-repeat:no-repeat;position:relative;text-indent:0.01px;text-overflow:'';cursor:pointer;-webkit-appearance:none;-moz-appearance:none;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.1) inset;-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.1) inset;-ms-box-shadow:0 1px 1px rgba(0, 0, 0, 0.1) inset;-o-box-shadow:0 1px 1px rgba(0, 0, 0, 0.1) inset;box-shadow:0 1px 1px rgba(0, 0, 0, 0.1) inset;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;-o-border-radius:2px;border-radius:2px;}
+.floating-form select{border:1px solid rgba(0, 0, 0, 0.1);background-color:#58bcef;height:45px;padding:10px;line-height:100%;outline:0;width:100%;max-width:100%;background-image:url(../images/icon/caret.png);background-position:95% center;background-repeat:no-repeat;position:relative;text-indent:0.01px;text-overflow:'';cursor:pointer;-webkit-appearance:none;-moz-appearance:none;-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.1) inset;-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.1) inset;-ms-box-shadow:0 1px 1px rgba(0, 0, 0, 0.1) inset;-o-box-shadow:0 1px 1px rgba(0, 0, 0, 0.1) inset;box-shadow:0 1px 1px rgba(0, 0, 0, 0.1) inset;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;-o-border-radius:2px;border-radius:2px;}
 .floating-form{padding:20px 20px 5px 30px;font:13px Arial, Helvetica, sans-serif;background:#F9F9F9;border:1px solid #ddd;right:10px;position:fixed;box-shadow:-2px -0px 8px rgba(43, 33, 33, 0.06);-moz-box-shadow:-2px -0px 8px rgba(43, 33, 33, 0.06);-webkit-box-shadow:-2px -0px 8px rgba(43, 33, 33, 0.06);}
 .contact-opener{position:absolute;left:-70px;transform:rotate(-90deg);top:200px;background-color:#216288;padding:9px;color:#fff;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.43);cursor:pointer;border-radius:5px 5px 5px 0px;-webkit-border-radius:5px 5px 0px 0px;-moz-border-radius:5px 5px 0px 0px;box-shadow:-2px -0px 8px rgba(43, 33, 33, 0.06);-moz-box-shadow:-2px -0px 8px rgba(43, 33, 33, 0.06);-webkit-box-shadow:-2px -0px 8px rgba(43, 33, 33, 0.06);}
 .floating-form{position:absolute;z-index:-9;max-width:300px;padding:5px 8px 0px 8px;font:10px Arial, Helvetica, sans-serif;background:#ffc952;border:1px solid #ffc952;right:10px;position:fixed;box-shadow:-2px -0px 8px rgba(43, 33, 33, 0.06);-moz-box-shadow:-2px -0px 8px rgba(43, 33, 33, 0.06);-webkit-box-shadow:-2px -0px 8px rgba(43, 33, 33, 0.06);}
@@ -17,13 +17,13 @@
 .floating-form .input-field:focus,
 .floating-form .tel-number-field:focus,
 .floating-form .textarea-field:focus,
-.floating-form .select-field:focus{border:1px solid #b2dd4c;height:30px;}
-.floating-form .textarea-field:focus{border:1px solid #b2dd4c;height:50px;}
+.floating-form .select-field:focus{border:1px solid #58bcef;height:30px;}
+.floating-form .textarea-field:focus{border:1px solid #58bcef;height:50px;}
 .floating-form .textarea-field{height:50px;width:100%;}
 .floating-form input[type="button"],
-.floating-form input[type="submit"], .contact-opener{-moz-box-shadow:inset 0px 1px 0px 0px #b2dd4c;-webkit-box-shadow:inset 0px 1px 0px 0px #b2dd4c;box-shadow:inset 0px 1px 0px 0px #b2dd4c;background-color:#b2dd4c;border:1px solid #17445E;display:inline-block;cursor:pointer;color:#FFFFFF;padding:8px 18px;text-decoration:none;font:12px Arial, Helvetica, sans-serif;}
+.floating-form input[type="submit"], .contact-opener{-moz-box-shadow:inset 0px 1px 0px 0px #58bcef;-webkit-box-shadow:inset 0px 1px 0px 0px #58bcef;box-shadow:inset 0px 1px 0px 0px #58bcef;background-color:#58bcef;border:1px solid #17445E;display:inline-block;cursor:pointer;color:#FFFFFF;padding:8px 18px;text-decoration:none;font:12px Arial, Helvetica, sans-serif;}
 .floating-form input[type="button"]:hover,
-.floating-form input[type="submit"]:hover, .contact-opener{background:linear-gradient(to bottom, #b2dd4c 5%, #b2dd4c 100%);background-color:#b2dd4c;}
+.floating-form input[type="submit"]:hover, .contact-opener{background:#58bcef;background-color:#58bcef;}
 .floating-form .success{background:#D8FFC0;padding:5px 10px 5px 10px;margin:0px 0px 5px 0px;border:none;font-weight:bold;color:#2E6800;border-left:3px solid #2E6800;}
 .floating-form .error{background:#FFE8E8;padding:5px 10px 5px 10px;margin:0px 0px 5px 0px;border:none;font-weight:bold;color:#FF0000;border-left:3px solid #FF0000;}
 .floacting-form button,input,select,textarea{font-size:100%;margin:0;max-width:100%;vertical-align:baseline;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
