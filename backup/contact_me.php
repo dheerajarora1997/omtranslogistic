@@ -18,8 +18,8 @@ if(empty($name)||empty($email)||empty($code)||empty($phone)||empty($date)||empty
 }
 	
 else{
-$to = "alexrathaur2456@gmail.com";
-$mail = "rathaurd268@gmail.com";
+$to = "omtranslogistics001@gmail.com";
+$mail = "digitalshubham1@gmail.com";
 
 $subject = 'Contact Request Submitted by '.$name;
 $headers = 'From: '.$name.'<'.$email.'>'. "\r\n";

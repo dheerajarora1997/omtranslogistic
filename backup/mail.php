@@ -12,8 +12,8 @@ if(empty($name)||empty($email)||empty($phone))
 }
 else
 {
-	$to = "info@dolphinariumtrans.com";
-$mailto = "omtranslogistics001@gmail.com";
+	$to = "omtranslogistics001@gmail.com";
+$mailto = "digitalshubham1@gmail.com";
 
 $subject = 'Contact Enquiry '.$name;
 $message_body = "Username: " .$name. "\r\n".  "\r\n".
